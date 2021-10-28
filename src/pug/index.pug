@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+html(lang="en")
+    include head/head.pug  
+    body
+        include modal/sidebar.pug
+        include header/header.pug
+        main.main
+            .containers
+                //- button to toggle sidebar menu
+                .toggle-menu__button.toggle-menu__button--inactive
+                    img(src="./images/icon-toggle.png", alt="icon-toggle.png")
+                    p Toggle menu
+                //- button to toggle sidebar menu
+                .content
+                    .content__now
+                        span
+                        h2 Các tài sản đang đấu giá
+                        span
+                    .content__list
+                        a(href="../public/view-info.html").content__item
+                            .content__box.box
+                                .box__top
+                                    .box__image
+                                        img(src="./images/dang-dau-gia/dang-dau-gia-1.png", alt="")
+                                        button.btn.btn--dau-gia
+                                            img(src="./images/icon-dau-gia.png", alt="")
+                                .box__bottom
+                                    h3.box__title Tên tài sản
+                                    p.box__sub Giá khởi điểm:
+                                    p.box__price 24.000.000.000 VND
+                                    p.box__time Thời gian: 28/07/2020
+                            .content__bg
+                        a(href="../public/view-info.html").content__item
+                            .content__box.box
+                                .box__top
+                                    .box__image
+                                        img(src="./images/dang-dau-gia/dang-dau-gia-2.png", alt="")
+                                        button.btn.btn--dau-gia
+                                            img(src="./images/icon-dau-gia.png", alt="")
+                                .box__bottom
+                                    h3.box__title Tên tài sản
+                                    p.box__sub Giá khởi điểm:
+                                    p.box__price 24.000.000.000 VND
+                                    p.box__time Thời gian: 28/07/2020
+                            .content__bg
+                        a(href="../public/view-info.html").content__item
+                            .content__box.box
+                                .box__top
+                                    .box__image
+                                        img(src="./images/dang-dau-gia/dang-dau-gia-3.png", alt="")
+                                        button.btn.btn--dau-gia
+                                            img(src="./images/icon-dau-gia.png", alt="")
+                                .box__bottom
+                                    h3.box__title Tên tài sản
+                                    p.box__sub Giá khởi điểm:
+                                    p.box__price 24.000.000.000 VND
+                                    p.box__time Thời gian: 28/07/2020
+                            .content__bg
+                        a(href="../public/view-info.html").content__item
+                            .content__box.box
+                                .box__top
+                                    .box__image
+                                        img(src="./images/dang-dau-gia/dang-dau-gia-4.png", alt="")
+                                        button.btn.btn--dau-gia
+                                            img(src="./images/icon-dau-gia.png", alt="")
+                                .box__bottom
+                                    h3.box__title Tên tài sản
+                                    p.box__sub Giá khởi điểm:
+                                    p.box__price 24.000.000.000 VND
+                                    p.box__time Thời gian: 28/07/2020
+                            .content__bg
+                        a(href="../public/view-info.html").content__item
+                            .content__box.box
+                                .box__top
+                                    .box__image
+                                        img(src="./images/dang-dau-gia/dang-dau-gia-5.png", alt="")
+                                        button.btn.btn--dau-gia
+                                            img(src="./images/icon-dau-gia.png", alt="")
+                                .box__bottom
+                                    h3.box__title Tên tài sản
+                                    p.box__sub Giá khởi điểm:
+                                    p.box__price 24.000.000.000 VND
+                                    p.box__time Thời gian: 28/07/2020
+                            .content__bg
+
+                .content.content__bds
+                    .content__title
+                        h2 Bất động sản (
+                            span  9 tài sản 
+                            | )
+                        a(href="#") Xem thêm
+                    .content__list.content__list--bds
+                        a(href="../public/view-info.html").content__item.content__item--bds.content__item--bds-mr
+                            .content__box.box.box--bds
+                                .box__top.box__top--bds
+                                    .box__image
+                                        img(src="./images/bds/bds-1.png", alt="")
+                                        
+                                .box__bottom.box__bottom--bds
+                                    h3.box__title Tên tài sản
+                                    p.box__sub Giá khởi điểm:
+                                    p.box__price 24.000.000.000 VND
+                                    p.box__time Thời gian: 28/07/2020
+                                    button.btn.btn--dau-gia
+                                        img(src="./images/icon-dau-gia-big.png", alt="")
+                            .content__bg.content__bg--bds
+                        a(href="../public/view-info.html").content__item.content__item--bds
+                            .content__box.box.box--bds
+                                .box__top.box__top--bds
+                                    .box__image
+                                        img(src="./images/bds/bds-2.png", alt="")
+                                        
+                                .box__bottom.box__bottom--bds
+                                    h3.box__title Tên tài sản
+                                    p.box__sub Giá khởi điểm:
+                                    p.box__price 24.000.000.000 VND
+                                    p.box__time Thời gian: 28/07/2020
+                                    button.btn.btn--dau-gia
+                                        img(src="./images/icon-dau-gia-big.png", alt="")
+                            .content__bg.content__bg--bds
+                        a(href="../public/view-info.html").content__item.content__item--bds.content__item--bds-mr
+                            .content__box.box.box--bds
+                                .box__top.box__top--bds
+                                    .box__image
+                                        img(src="./images/bds/bds-3.png", alt="")
+                                        
+                                .box__bottom.box__bottom--bds
+                                    h3.box__title Tên tài sản
+                                    p.box__sub Giá khởi điểm:
+                                    p.box__price 24.000.000.000 VND
+                                    p.box__time Thời gian: 28/07/2020
+                                    button.btn.btn--dau-gia
+                                        img(src="./images/icon-dau-gia-big.png", alt="")
+                            .content__bg.content__bg--bds
+                        a(href="../public/view-info.html").content__item.content__item--bds
+                            .content__box.box.box--bds
+                                .box__top.box__top--bds
+                                    .box__image
+                                        img(src="./images/bds/bds-4.png", alt="")
+                                        
+                                .box__bottom.box__bottom--bds
+                                    h3.box__title Tên tài sản
+                                    p.box__sub Giá khởi điểm:
+                                    p.box__price 24.000.000.000 VND
+                                    p.box__time Thời gian: 28/07/2020
+                                    button.btn.btn--dau-gia
+                                        img(src="./images/icon-dau-gia-big.png", alt="")
+                            .content__bg.content__bg--bds
+                .content.content__bds
+                    .content__title
+                        h2 TÀi sản công (
+                            span  12 tài sản 
+                            | )
+                        a(href="#") Xem thêm
+                    .content__list.content__list--bds
+                        .content__item.content__item--bds.content__item--bds-mr
+                            .content__box.box.box--bds
+                                .box__top.box__top--bds
+                                    .box__image
+                                        img(src="./images/tai-san-cong/tai-san-cong-1.png", alt="")
+                                        
+                                .box__bottom.box__bottom--bds
+                                    h3.box__title Tên tài sản
+                                    p.box__sub Giá khởi điểm:
+                                    p.box__price 24.000.000.000 VND
+                                    p.box__time Thời gian: 28/07/2020
+                                    button.btn.btn--dau-gia
+                                        img(src="./images/icon-dau-gia-big.png", alt="")
+                            .content__bg.content__bg--bds
+                        .content__item.content__item--bds
+                            .content__box.box.box--bds
+                                .box__top.box__top--bds
+                                    .box__image
+                                        img(src="./images/tai-san-cong/tai-san-cong-2.png", alt="")
+                                        
+                                .box__bottom.box__bottom--bds
+                                    h3.box__title Tên tài sản
+                                    p.box__sub Giá khởi điểm:
+                                    p.box__price 24.000.000.000 VND
+                                    p.box__time Thời gian: 28/07/2020
+                                    button.btn.btn--dau-gia
+                                        img(src="./images/icon-dau-gia-big.png", alt="")
+                            .content__bg.content__bg--bds
+                        .content__item.content__item--bds.content__item--bds-mr
+                            .content__box.box.box--bds
+                                .box__top.box__top--bds
+                                    .box__image
+                                        img(src="./images/tai-san-cong/tai-san-cong-3.png", alt="")
+                                        
+                                .box__bottom.box__bottom--bds
+                                    h3.box__title Tên tài sản
+                                    p.box__sub Giá khởi điểm:
+                                    p.box__price 24.000.000.000 VND
+                                    p.box__time Thời gian: 28/07/2020
+                                    button.btn.btn--dau-gia
+                                        img(src="./images/icon-dau-gia-big.png", alt="")
+                            .content__bg.content__bg--bds
+                        .content__item.content__item--bds
+                            .content__box.box.box--bds
+                                .box__top.box__top--bds
+                                    .box__image
+                                        img(src="./images/tai-san-cong/tai-san-cong-4.png", alt="")
+                                        
+                                .box__bottom.box__bottom--bds
+                                    h3.box__title Tên tài sản
+                                    p.box__sub Giá khởi điểm:
+                                    p.box__price 24.000.000.000 VND
+                                    p.box__time Thời gian: 28/07/2020
+                                    button.btn.btn--dau-gia
+                                        img(src="./images/icon-dau-gia-big.png", alt="")
+                            .content__bg.content__bg--bds
+                .content.content__bds
+                    .content__title
+                        h2 Phương tiện - xe cộ (
+                            span  9 tài sản 
+                            | )
+                        a(href="#") Xem thêm
+                    .content__list.content__list--bds
+                        .content__item.content__item--bds.content__item--bds-mr
+                            .content__box.box.box--bds
+                                .box__top.box__top--bds
+                                    .box__image
+                                        img(src="./images/xe-co/xe-co-1.png", alt="")
+                                        
+                                .box__bottom.box__bottom--bds
+                                    h3.box__title Tên tài sản
+                                    p.box__sub Giá khởi điểm:
+                                    p.box__price 24.000.000.000 VND
+                                    p.box__time Thời gian: 28/07/2020
+                                    button.btn.btn--dau-gia
+                                        img(src="./images/icon-dau-gia-big.png", alt="")
+                            .content__bg.content__bg--bds
+                        .content__item.content__item--bds
+                            .content__box.box.box--bds
+                                .box__top.box__top--bds
+                                    .box__image
+                                        img(src="./images/xe-co/xe-co-2.png", alt="")
+                                        
+                                .box__bottom.box__bottom--bds
+                                    h3.box__title Tên tài sản
+                                    p.box__sub Giá khởi điểm:
+                                    p.box__price 24.000.000.000 VND
+                                    p.box__time Thời gian: 28/07/2020
+                                    button.btn.btn--dau-gia
+                                        img(src="./images/icon-dau-gia-big.png", alt="")
+                            .content__bg.content__bg--bds
+                        .content__item.content__item--bds.content__item--bds-mr
+                            .content__box.box.box--bds
+                                .box__top.box__top--bds
+                                    .box__image
+                                        img(src="./images/xe-co/xe-co-3.png", alt="")
+                                        
+                                .box__bottom.box__bottom--bds
+                                    h3.box__title Tên tài sản
+                                    p.box__sub Giá khởi điểm:
+                                    p.box__price 24.000.000.000 VND
+                                    p.box__time Thời gian: 28/07/2020
+                                    button.btn.btn--dau-gia
+                                        img(src="./images/icon-dau-gia-big.png", alt="")
+                            .content__bg.content__bg--bds
+                        .content__item.content__item--bds
+                            .content__box.box.box--bds
+                                .box__top.box__top--bds
+                                    .box__image
+                                        img(src="./images/xe-co/xe-co-4.png", alt="")
+                                        
+                                .box__bottom.box__bottom--bds
+                                    h3.box__title Tên tài sản
+                                    p.box__sub Giá khởi điểm:
+                                    p.box__price 24.000.000.000 VND
+                                    p.box__time Thời gian: 28/07/2020
+                                    button.btn.btn--dau-gia
+                                        img(src="./images/icon-dau-gia-big.png", alt="")
+                            .content__bg.content__bg--bds
+                .content.content__bds
+                    .content__title
+                        h2 Sưu tầm - nghệ thuật (
+                            span  12 tài sản 
+                            | )
+                        a(href="#") Xem thêm
+                    .content__list.content__list--bds
+                        .content__item.content__item--bds.content__item--bds-mr
+                            .content__box.box.box--bds
+                                .box__top.box__top--bds
+                                    .box__image
+                                        img(src="./images/nghe-thuat/nghe-thuat-1.png", alt="")
+                                        
+                                .box__bottom.box__bottom--bds
+                                    h3.box__title Tên tài sản
+                                    p.box__sub Giá khởi điểm:
+                                    p.box__price 24.000.000.000 VND
+                                    p.box__time Thời gian: 28/07/2020
+                                    button.btn.btn--dau-gia
+                                        img(src="./images/icon-dau-gia-big.png", alt="")
+                            .content__bg.content__bg--bds
+                        .content__item.content__item--bds
+                            .content__box.box.box--bds
+                                .box__top.box__top--bds
+                                    .box__image
+                                        img(src="./images/nghe-thuat/nghe-thuat-2.png", alt="")
+                                        
+                                .box__bottom.box__bottom--bds
+                                    h3.box__title Tên tài sản
+                                    p.box__sub Giá khởi điểm:
+                                    p.box__price 24.000.000.000 VND
+                                    p.box__time Thời gian: 28/07/2020
+                                    button.btn.btn--dau-gia
+                                        img(src="./images/icon-dau-gia-big.png", alt="")
+                            .content__bg.content__bg--bds
+                        .content__item.content__item--bds.content__item--bds-mr
+                            .content__box.box.box--bds
+                                .box__top.box__top--bds
+                                    .box__image
+                                        img(src="./images/nghe-thuat/nghe-thuat-3.png", alt="")
+                                        
+                                .box__bottom.box__bottom--bds
+                                    h3.box__title Tên tài sản
+                                    p.box__sub Giá khởi điểm:
+                                    p.box__price 24.000.000.000 VND
+                                    p.box__time Thời gian: 28/07/2020
+                                    button.btn.btn--dau-gia
+                                        img(src="./images/icon-dau-gia-big.png", alt="")
+                            .content__bg.content__bg--bds
+                        .content__item.content__item--bds
+                            .content__box.box.box--bds
+                                .box__top.box__top--bds
+                                    .box__image
+                                        img(src="./images/nghe-thuat/nghe-thuat-4.png", alt="")
+                                        
+                                .box__bottom.box__bottom--bds
+                                    h3.box__title Tên tài sản
+                                    p.box__sub Giá khởi điểm:
+                                    p.box__price 24.000.000.000 VND
+                                    p.box__time Thời gian: 28/07/2020
+                                    button.btn.btn--dau-gia
+                                        img(src="./images/icon-dau-gia-big.png", alt="")
+                            .content__bg.content__bg--bds
+                .content.content__bds
+                    .content__title
+                        h2 HÀng hiệu xa xỉ (
+                            span  12 tài sản 
+                            | )
+                        a(href="#") Xem thêm
+                    .content__list.content__list--bds
+                        .content__item.content__item--bds.content__item--bds-mr
+                            .content__box.box.box--bds
+                                .box__top.box__top--bds
+                                    .box__image
+                                        img(src="./images/hang-hieu/hang-hieu-1.png", alt="")
+                                        
+                                .box__bottom.box__bottom--bds
+                                    h3.box__title Tên tài sản
+                                    p.box__sub Giá khởi điểm:
+                                    p.box__price 24.000.000.000 VND
+                                    p.box__time Thời gian: 28/07/2020
+                                    button.btn.btn--dau-gia
+                                        img(src="./images/icon-dau-gia-big.png", alt="")
+                            .content__bg.content__bg--bds
+                        .content__item.content__item--bds
+                            .content__box.box.box--bds
+                                .box__top.box__top--bds
+                                    .box__image
+                                        img(src="./images/hang-hieu/hang-hieu-2.png", alt="")
+                                        
+                                .box__bottom.box__bottom--bds
+                                    h3.box__title Tên tài sản
+                                    p.box__sub Giá khởi điểm:
+                                    p.box__price 24.000.000.000 VND
+                                    p.box__time Thời gian: 28/07/2020
+                                    button.btn.btn--dau-gia
+                                        img(src="./images/icon-dau-gia-big.png", alt="")
+                            .content__bg.content__bg--bds
+                        .content__item.content__item--bds.content__item--bds-mr
+                            .content__box.box.box--bds
+                                .box__top.box__top--bds
+                                    .box__image
+                                        img(src="./images/hang-hieu/hang-hieu-3.png", alt="")
+                                        
+                                .box__bottom.box__bottom--bds
+                                    h3.box__title Tên tài sản
+                                    p.box__sub Giá khởi điểm:
+                                    p.box__price 24.000.000.000 VND
+                                    p.box__time Thời gian: 28/07/2020
+                                    button.btn.btn--dau-gia
+                                        img(src="./images/icon-dau-gia-big.png", alt="")
+                            .content__bg.content__bg--bds
+                        .content__item.content__item--bds
+                            .content__box.box.box--bds
+                                .box__top.box__top--bds
+                                    .box__image
+                                        img(src="./images/hang-hieu/hang-hieu-4.png", alt="")
+                                        
+                                .box__bottom.box__bottom--bds
+                                    h3.box__title Tên tài sản
+                                    p.box__sub Giá khởi điểm:
+                                    p.box__price 24.000.000.000 VND
+                                    p.box__time Thời gian: 28/07/2020
+                                    button.btn.btn--dau-gia
+                                        img(src="./images/icon-dau-gia-big.png", alt="")
+                            .content__bg.content__bg--bds
+                .content.content__bds
+                    .content__title
+                        h2 Tang vật tịch thu (
+                            span  9 tài sản 
+                            | )
+                        a(href="#") Xem thêm
+                    .content__list.content__list--bds
+                        .content__item.content__item--bds.content__item--bds-mr
+                            .content__box.box.box--bds
+                                .box__top.box__top--bds
+                                    .box__image
+                                        img(src="./images/tang-vat/tang-vat-1.png", alt="")
+                                        
+                                .box__bottom.box__bottom--bds
+                                    h3.box__title Tên tài sản
+                                    p.box__sub Giá khởi điểm:
+                                    p.box__price 24.000.000.000 VND
+                                    p.box__time Thời gian: 28/07/2020
+                                    button.btn.btn--dau-gia
+                                        img(src="./images/icon-dau-gia-big.png", alt="")
+                            .content__bg.content__bg--bds
+                        .content__item.content__item--bds
+                            .content__box.box.box--bds
+                                .box__top.box__top--bds
+                                    .box__image
+                                        img(src="./images/tang-vat/tang-vat-2.png", alt="")
+                                        
+                                .box__bottom.box__bottom--bds
+                                    h3.box__title Tên tài sản
+                                    p.box__sub Giá khởi điểm:
+                                    p.box__price 24.000.000.000 VND
+                                    p.box__time Thời gian: 28/07/2020
+                                    button.btn.btn--dau-gia
+                                        img(src="./images/icon-dau-gia-big.png", alt="")
+                            .content__bg.content__bg--bds
+                        .content__item.content__item--bds.content__item--bds-mr
+                            .content__box.box.box--bds
+                                .box__top.box__top--bds
+                                    .box__image
+                                        img(src="./images/tang-vat/tang-vat-3.png", alt="")
+                                        
+                                .box__bottom.box__bottom--bds
+                                    h3.box__title Tên tài sản
+                                    p.box__sub Giá khởi điểm:
+                                    p.box__price 24.000.000.000 VND
+                                    p.box__time Thời gian: 28/07/2020
+                                    button.btn.btn--dau-gia
+                                        img(src="./images/icon-dau-gia-big.png", alt="")
+                            .content__bg.content__bg--bds
+                        .content__item.content__item--bds
+                            .content__box.box.box--bds
+                                .box__top.box__top--bds
+                                    .box__image
+                                        img(src="./images/tang-vat/tang-vat-4.png", alt="")
+                                        
+                                .box__bottom.box__bottom--bds
+                                    h3.box__title Tên tài sản
+                                    p.box__sub Giá khởi điểm:
+                                    p.box__price 24.000.000.000 VND
+                                    p.box__time Thời gian: 28/07/2020
+                                    button.btn.btn--dau-gia
+                                        img(src="./images/icon-dau-gia-big.png", alt="")
+                            .content__bg.content__bg--bds
+                .content.content__bds
+                    .content__title
+                        h2 TÀi sản khác (
+                            span  12 tài sản 
+                            | )
+                        a(href="#") Xem thêm
+                    .content__list.content__list--bds
+                        .content__item.content__item--bds.content__item--bds-mr
+                            .content__box.box.box--bds
+                                .box__top.box__top--bds
+                                    .box__image
+                                        img(src="./images/tai-san-khac/tai-san-khac-1.png", alt="")
+                                        
+                                .box__bottom.box__bottom--bds
+                                    h3.box__title Tên tài sản
+                                    p.box__sub Giá khởi điểm:
+                                    p.box__price 24.000.000.000 VND
+                                    p.box__time Thời gian: 28/07/2020
+                                    button.btn.btn--dau-gia
+                                        img(src="./images/icon-dau-gia-big.png", alt="")
+                            .content__bg.content__bg--bds
+                        .content__item.content__item--bds
+                            .content__box.box.box--bds
+                                .box__top.box__top--bds
+                                    .box__image
+                                        img(src="./images/tai-san-khac/tai-san-khac-2.png", alt="")
+                                        
+                                .box__bottom.box__bottom--bds
+                                    h3.box__title Tên tài sản
+                                    p.box__sub Giá khởi điểm:
+                                    p.box__price 24.000.000.000 VND
+                                    p.box__time Thời gian: 28/07/2020
+                                    button.btn.btn--dau-gia
+                                        img(src="./images/icon-dau-gia-big.png", alt="")
+                            .content__bg.content__bg--bds
+                        .content__item.content__item--bds.content__item--bds-mr
+                            .content__box.box.box--bds
+                                .box__top.box__top--bds
+                                    .box__image
+                                        img(src="./images/tai-san-khac/tai-san-khac-3.png", alt="")
+                                        
+                                .box__bottom.box__bottom--bds
+                                    h3.box__title Tên tài sản
+                                    p.box__sub Giá khởi điểm:
+                                    p.box__price 24.000.000.000 VND
+                                    p.box__time Thời gian: 28/07/2020
+                                    button.btn.btn--dau-gia
+                                        img(src="./images/icon-dau-gia-big.png", alt="")
+                            .content__bg.content__bg--bds
+                        .content__item.content__item--bds
+                            .content__box.box.box--bds
+                                .box__top.box__top--bds
+                                    .box__image
+                                        img(src="./images/tai-san-khac/tai-san-khac-4.png", alt="")
+                                        
+                                .box__bottom.box__bottom--bds
+                                    h3.box__title Tên tài sản
+                                    p.box__sub Giá khởi điểm:
+                                    p.box__price 24.000.000.000 VND
+                                    p.box__time Thời gian: 28/07/2020
+                                    button.btn.btn--dau-gia
+                                        img(src="./images/icon-dau-gia-big.png", alt="")
+                            .content__bg.content__bg--bds
+                       
+                   
+        include footer/footer.pug
+
+include modal/modal.pug  
+    //- script(src="./js/jquery-3.5.1.min.js")
+    //- script(src="./js/popper.min.js")
+    //- script(src="./js/bootstrap.min.js")
+    //- script(src="./js/owl.carousel.js")
+    //- script(src="./js/owl.carousel.min.js")
+    //- script(src="./js/custom.js")
+    include script/script.pug
+                
